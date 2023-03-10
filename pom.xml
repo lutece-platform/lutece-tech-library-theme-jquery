@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>lutece-global-pom</artifactId>
+        <groupId>fr.paris.lutece.tools</groupId>
+        <version>6.0.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.paris.lutece.plugins</groupId>
+    <artifactId>library-theme-jquery</artifactId>
+    <packaging>lutece-plugin</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>jQuery Theme Library for Lutece CORE admin compatibility</name>
+
+    <repositories>
+        <repository>
+            <id>lutece</id>
+            <name>luteceRepository</name>
+            <url>http://dev.lutece.paris.fr/maven_repository</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>luteceSnapshot</id>
+            <name>luteceSnapshot</name>
+            <url>http://dev.lutece.paris.fr/snapshot_repository</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
+	<dependencies>
+        <dependency>
+            <groupId>fr.paris.lutece</groupId>
+            <artifactId>lutece-core</artifactId>
+            <version>[7.0.9-SNAPSHOT,)</version>
+            <type>lutece-core</type>
+        </dependency>
+    </dependencies>
+    <properties>
+        <componentName>library-theme-jquery</componentName>
+        <jiraProjectName>LIBRARYTHEMEJQUERY</jiraProjectName>
+        <jiraComponentId />
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <github.project>lutece-platform/lutece-tech-library-theme-jquery</github.project>
+	</properties>
+    <scm>
+	    <connection>scm:git:https://github.com/lutece-platform/lutece-tech-library-theme-jquery.git</connection>
+	    <developerConnection>scm:git:https://github.com/lutece-platform/lutece-tech-library-theme-jquery.git</developerConnection>
+	    <url>https://github.com/lutece-platform/lutece-tech-library-theme-jquery.git</url>
+        <tag>HEAD</tag>
+    </scm>
+</project>

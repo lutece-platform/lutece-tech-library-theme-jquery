@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <body>
+        <links>
+            <item name="FR" href="/fr/index.html" />
+        </links>
+        
+        <menu name="Plugin Theme JQuery">
+            <item name="Home" href="index.html"/>
+        </menu>
+            <item name="Versions stables" href="../../../stable_builds/plugins/library-theme-jquery/"/>
+            <item name="Nightly builds" href="../../../nightly_builds/plugins/library-theme-parisfr/" />
+        </menu>
+        <menu ref="reports" />
+    </body>
+</project>
+

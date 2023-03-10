@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><plug-in>
+    <name>themejquery</name>
+    <class>fr.paris.lutece.portal.service.plugin.PluginDefaultImplementation</class>
+    <version>1.0.0-SNAPSHOT</version>
+    <documentation/>
+    <installation/>
+    <changes/>
+    <user-guide/>
+    <description>themejquery.library.description</description>
+    <provider>themejquery.library.provider</provider>
+    <provider-url>http://fr.lutece.paris.fr</provider-url>
+    <icon-url>images/admin/skin/plugins/themejquery/jquery.png</icon-url>
+    <copyright>Copyright (c) 2023 Mairie de Paris</copyright>
+    <db-pool-required>0</db-pool-required>
+    <core-version-dependency>
+        <min-core-version>7.0.8</min-core-version>
+        <max-core-version/>
+    </core-version-dependency>
+    <!-- Specific plugin CSS stylesheet -->
+    <admin-css-stylesheets>
+        <!-- 
+        <admin-css-stylesheet>css/admin/jquery/jquery-ui.min.css</admin-css-stylesheet>
+        <admin-css-stylesheet>css/admin/jquery/jquery-ui.structure.min.css</admin-css-stylesheet>
+        <admin-css-stylesheet>css/admin/jquery/jquery-ui.theme.min.css</admin-css-stylesheet>
+        <admin-css-stylesheet>css/admin/jquery/style/tabler/bootstrap-colorpicker.min.css</admin-css-stylesheet>
+        <admin-css-stylesheet>css/admin/jquery/jquery_admin-min.css</admin-css-stylesheet> 
+        -->
+    </admin-css-stylesheets>
+    <!-- Specific plugin JS files -->
+    <admin-javascript-files>
+        <!-- 
+        <admin-javascript-file>js/admin/jquery/jquery-3.6.0.min.js</admin-javascript-file>
+        <admin-javascript-file>js/admin/jquery/jquery-migrate-3.4.0.min.js</admin-javascript-file>
+        <admin-javascript-file>js/admin/jquery/jquery-ui.min.js</admin-javascript-file>
+        <admin-javascript-file>js/admin/jquery/bootstrap-filestyle.min.js</admin-javascript-file> 
+        <admin-javascript-file>js/admin/jquery/bootstrap-colorpicker.js</admin-javascript-file> 
+        <admin-javascript-file>js/admin/jquery/util/jquery-progress-manager.js</admin-javascript-file>
+        <admin-javascript-file>js/admin/jquery/jquery_admin.js</admin-javascript-file>  
+        -->
+    </admin-javascript-files>
+    <freemarker-macro-files>
+        <freemarker-macro-file>commons_theme_jquery.html</freemarker-macro-file>
+    </freemarker-macro-files>
+</plug-in>
