@@ -1,5 +1,5 @@
 # Library Theme jQuery
-## _The Library that add jQuery libs as dependency for Lutece site that where build with jquery stuff._
+## _The library that adds jQuery as dependency for Lutece sites that were built with jQuery stuff._
 
 ![](https://dev.lutece.paris.fr/jenkins/buildStatus/icon?job=lutece-tech-library-theme-jquery)
 The Theme jQuery library permit to add jQuery minimal libs to run older version of Lutece core ( less than 7.5 versions ). 
