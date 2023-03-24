@@ -18,25 +18,24 @@
     </core-version-dependency>
     <!-- Specific plugin CSS stylesheet -->
     <admin-css-stylesheets>
-        <!-- 
         <admin-css-stylesheet>css/admin/jquery/jquery-ui.min.css</admin-css-stylesheet>
         <admin-css-stylesheet>css/admin/jquery/jquery-ui.structure.min.css</admin-css-stylesheet>
         <admin-css-stylesheet>css/admin/jquery/jquery-ui.theme.min.css</admin-css-stylesheet>
-        <admin-css-stylesheet>css/admin/jquery/style/tabler/bootstrap-colorpicker.min.css</admin-css-stylesheet>
-        <admin-css-stylesheet>css/admin/jquery/jquery_admin-min.css</admin-css-stylesheet> 
-        -->
+        <admin-css-stylesheet>css/admin/jquery/bootstrap-colorpicker.min.css</admin-css-stylesheet>
+        <admin-css-stylesheet>css/admin/jquery/bootstrap-flatpickr.min;css</admin-css-stylesheet>
+        <admin-css-stylesheet>css/admin/jquery/portal_admin.min.css</admin-css-stylesheet> 
+        <admin-javascript-file>js/admin/jquery/jquery-3.6.0.min.js</admin-javascript-file>
     </admin-css-stylesheets>
     <!-- Specific plugin JS files -->
     <admin-javascript-files>
-        <!-- 
-        <admin-javascript-file>js/admin/jquery/jquery-3.6.0.min.js</admin-javascript-file>
         <admin-javascript-file>js/admin/jquery/jquery-migrate-3.4.0.min.js</admin-javascript-file>
         <admin-javascript-file>js/admin/jquery/jquery-ui.min.js</admin-javascript-file>
-        <admin-javascript-file>js/admin/jquery/bootstrap-filestyle.min.js</admin-javascript-file> 
-        <admin-javascript-file>js/admin/jquery/bootstrap-colorpicker.js</admin-javascript-file> 
+        <admin-javascript-file>js/admin/jquery/plugins/bootstrap-filestyle.min.js</admin-javascript-file> 
+        <admin-javascript-file>js/admin/jquery/plugins/bootstrap-flatpickr.min.js</admin-javascript-file> 
+        <admin-javascript-file>js/admin/jquery/plugins/bootstrap-colorpicker.js</admin-javascript-file> 
         <admin-javascript-file>js/admin/jquery/util/jquery-progress-manager.js</admin-javascript-file>
+        <admin-javascript-file>js/admin/jquery/util/jquery-lutece.js</admin-javascript-file>
         <admin-javascript-file>js/admin/jquery/jquery_admin.js</admin-javascript-file>  
-        -->
     </admin-javascript-files>
     <freemarker-macro-files>
         <freemarker-macro-file>commons_theme_jquery.html</freemarker-macro-file>
