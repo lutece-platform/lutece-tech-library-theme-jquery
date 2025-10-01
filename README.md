@@ -7,10 +7,9 @@ This lib must only be used for jQuery compatibility problems.
 
 ## Features
 
-- Import jQuery main libs and css
+- Add old core jQuery main libs and css
 
-> All plugins that are shipped with jQuery plugins
-> may require this lib.
+> All plugins that are shipped with jQuery plugins may require this lib.
 > The aim is to remove those dependencies ASAP
 
 ## Installation
