@@ -5,9 +5,22 @@
 <#-- Do not remove this comment -->
 <#-- Include JQuery Core Lib    -->
 <#-- JQuery addons FO           -->
-<#macro jqueryHeader>
+<#macro jqueryHeader version='' admin=true>
+<#if version == 'latest'>
+  <#-- use latest stable version -->
+  <#local version = "-3.5.1" />
+  <#local migrateVersion = "3.4.0" />  
+<#else>
+  <#-- use specified version -->  
+   <#local migrateVersion = "1.4.1" />
+</#if>
 <!-- Library Theme Jquery Head  -->
-<script src="js/admin/jquery/jquery-3.5.1.min.js"></script> <!-- provided by themejquery  -->
+ <#if admin>
+<script src="js/admin/jquery/jquery${version}.min.js"></script> <!-- provided by themejquery  -->
+<script src="js/admin/jquery/jquery-migrate-${migrateVersion}.min.js"></script> <!-- provided by themejquery  -->
+<#else>
+<script src="js/jquery/jquery${version}.min.js"></script> <!-- provided by themejquery  -->
+</#if>
 </#macro>
 <#macro jqueryFooter>
 <!-- Library Theme Jquery Foot  -->
