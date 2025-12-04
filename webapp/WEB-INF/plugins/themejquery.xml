@@ -23,7 +23,7 @@
         <admin-css-stylesheet>css/admin/style/tabler/bootstrap-colorpicker.min.css</admin-css-stylesheet>
         <admin-css-stylesheet>css/admin/style/tabler/datepicker.css</admin-css-stylesheet>
         <admin-css-stylesheet>css/admin/style/tabler/bootstrap-datepicker.min.css</admin-css-stylesheet>
-        <admin-css-stylesheet>css/admin/style/tabler/bootstrap-flatpickr.min.css</admin-css-stylesheet>
+        <!-- <admin-css-stylesheet>css/admin/style/tabler/bootstrap-flatpickr.min.css</admin-css-stylesheet> -->
         <admin-css-stylesheet>css/admin/jquery-ui.min.css</admin-css-stylesheet>
         <admin-css-stylesheet>css/admin/jquery-ui.structure.min.css</admin-css-stylesheet>
         <admin-css-stylesheet>css/admin/jquery-ui.theme.min.css</admin-css-stylesheet>
@@ -33,10 +33,10 @@
         <admin-javascript-file>js/admin/jquery/jquery-ui.min.js</admin-javascript-file>
         <admin-javascript-file>js/admin/jquery/plugins/js.cookie.js</admin-javascript-file>
         <admin-javascript-file>js/admin/style/tabler/bootstrap-filestyle.min.js</admin-javascript-file> 
-        <admin-javascript-file>js/admin/style/tabler/bootstrap-flatpickr.min.js</admin-javascript-file> 
+        <!-- <admin-javascript-file>js/admin/style/tabler/bootstrap-flatpickr.min.js</admin-javascript-file>  -->
         <admin-javascript-file>js/admin/style/tabler/bootstrap-colorpicker.js</admin-javascript-file> 
-        <admin-javascript-file>js/util/progress-manager.js</admin-javascript-file>
-        <admin-javascript-file>js/util/lutece.js</admin-javascript-file>
+        <!-- <admin-javascript-file>js/util/progress-manager.js</admin-javascript-file> -->
+        <!-- <admin-javascript-file>js/util/lutece.js</admin-javascript-file> -->
     </admin-javascript-files>
     <freemarker-macro-files>
         <freemarker-macro-file>commons_theme_jquery.html</freemarker-macro-file>
